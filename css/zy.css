@@ -1,0 +1,89 @@
+/*定位1000宽*/
+.container{width:1000px; margin:0px auto;min-height: 500px;}
+.bgZy{background:#fff;box-shadow: 0px 1px 3px 1px  #ddd; padding-bottom:30px;
+-moz-box-shadow: 0px 1px 3px 1px  #ddd;
+-webkit-box-shadow: 0px 1px 3px 1px  #ddd; margin-top:35px; margin-bottom:80px;}
+.none{display:none;}
+.pt30{padding-top:30px;}
+/*
+	describe:login
+	update:2014-11-04
+	author:zhongyan
+*/
+.loginZy_title{font-size:14px; font-family:'Microsoft Yahei'; color:#797a7c; padding-top:30px;}
+.loginZy_title a{color:#fa5b48;}
+.loginZy_title a:hover{color:#09F;}
+.loginZy{width:100%; padding-top:10px; padding-bottom:80px;}
+.loginZy_left{width:645px; float:left;}
+.loginZy_right{width:315px; font-size:14px; float:left; background:#eef4f7; padding:15px 20px 0px 20px;}
+.loginZy_right h2{font:22px 'Microsoft Yahei'; color:#2b2f32; text-align:center;}
+.loginZy_right p.red{color:#fa5b48; text-align:center; line-height:30px; height:30px; font-size:14px;}
+
+.loginZy_lay{width:100%;height:40px; background:#fff;border:1px solid #fff; margin-bottom:15px;}
+.loginZy_lay.focus{border:1px solid #09F;}
+.loginZy_lay.error{border:1px solid #fa5b48;}
+.loginZy_lay i{width:30px; height:40px; float:left; margin-left:2px; display:block;}
+.loginZy_lay i.phone{background:url(../images/login/login_icon1.png) no-repeat;}
+.loginZy_lay i.key{background:url(../images/login/login_icon_2.png) no-repeat;}
+
+.loginInput{height:40px; line-height:40px\9; _line-height:40px;  vertical-align:middle; width:280px; outline:none; border:0px;  font-size:14px; display:block; float:left;}
+
+.loginZy_radio{cursor:pointer;width:12px; position:relative; height:12px; display:inline-block; background:url(../images/login/radio.png) no-repeat;}
+.radioCheck{cursor:pointer;width:12px; position:absolute; left:0px; top:0px; z-index:10; height:12px; display:inline-block; background:url(../images/login/radio_chkeck.png) no-repeat; display:none;}
+.radioTit{font:14px 'Microsoft Yahei'; color:#2b2f32; cursor:default;}
+.loginZy_notice{font:12px 'Microsoft Yahei'; color:#797a7c; line-height:24px; padding-left:14px;}
+.loginZy_forget{font:14px 'Microsoft Yahei'; color:#2b2f32; padding-left:14px; line-height:30px;}
+.loginZy_forget:hover{color:#09F;}
+.loginZy_btn{width:100%; margin:25px 0px; height:45px; background:#0db2ff; display:block; font:22px/45px 'Microsoft Yahei'; color:#fff; text-align:center;}
+/*regsiter*/
+.regsiterZy{width:100%; background:#fff; padding:30px 0px; margin-top:15px; margin-bottom:80px;
+box-shadow: 0px 1px 3px 1px  #ddd;
+-moz-box-shadow: 0px 1px 3px 1px  #ddd;
+-webkit-box-shadow: 0px 1px 3px 1px  #ddd;}
+.regsiterZy h2{font:22px 'Microsoft Yahei'; color:#2b2f32; padding-left:176px;}
+.regsiterUl{width:100%; padding-top:10px; margin-bottom:50px;}
+.regsiterUl li{height:42px; line-height:42px; font:14px 'Microsoft Yahei'; margin-bottom:15px;}
+.regsiterUl li label{width:170px; text-align:right; padding-right:5px; display:inline-block;}
+.registerInput{width:316px; height:40px; line-height:40px\9; _line-height:40px; outline:none; vertical-align:middle; background:#efefef; border:1px solid #ccc; padding-left:10px;font-size:14px; color:#bfbfbf;}
+.registerInput.focus{background:#fff; border:1px solid #0db2ff; color:#2b2f32;}
+.registerInput.error{background:#fff; border:1px solid #fa5b48; color:#2b2f32;}
+.registerInput.code{width:180px;}
+.regsiterUl li span.error{color:#797a7c; display:none;}
+.regsiterUl li span.warn{display:none;background:url(../images/login/warn.jpg) no-repeat left center; padding-left:25px; color:#fa5b48;}
+.regsiterUl li span.win{display:none;background:url(../images/zy-zheng.jpg) no-repeat left center; padding-left:25px; color:#19bf9b;}
+.codeZy{background:#efefef; color:#797a7c; width:120px; display:inline-block; height:40px; line-height:40px; text-align:center; top:2px; left:0px; margin-left:10px;}
+.codeZy_blue{background:#6eccfd; color:#fff; width:120px; display:inline-block; height:40px; line-height:40px; text-align:center; top:2px; left:0px; margin-left:10px;}
+.register_radio{padding-left:176px; padding-top:15px;}
+.blue{color:#0db2ff;}
+.register_Btn{width:318px; padding-left:176px;}
+.register_Btn>a{margin:10px 0px;}
+/*forget*/
+.testZy{width:120px;  margin-left:10px;}
+.forget_phone{font:bold 30px 'Microsoft Yahei'; color:#0db2ff;}
+.forget_finish{width:316px; margin:0px auto;}
+.forget_finish_w1{font:36px 'Microsoft Yahei'; color:#b9db50; padding-top:15px;}
+.forget_finish_w2{font:18px 'Microsoft Yahei'; color:#838586;}
+/*idea*/
+.idea{width:711px; margin:10px auto;}
+.idea_title{padding-top:45px; font:22px 'Microsoft Yahei'; color:#3f3f3f;}
+.idea_text{width:710px; height:155px; background:#efefef; border:1px solid #e2e1e1; margin-top:20px;}
+.idea_btn{width:318px; margin:10px auto;}
+#idea{width:382px; height:167px; padding:20px 0px 0px 0px;}
+.idea_w{font:14px 'Microsoft Yahei'; color:#595959; padding-top:10px;}
+.idea_ball{width:182px; margin:0px auto;}
+/*about us*/
+#aboutUs li a{background:#fff;display:block; padding-left:0px; text-align:center;font:16px/40px Microsoft Yahei; border-bottom:1px solid #eee;}
+
+#aboutUs li.hot a {
+background-color: #6eccfd;
+border-bottom: 1px solid #6eccfd;
+color: #fff;
+}
+#aboutUs_title{margin-bottom:10px;}
+.aboutUs_main{padding:0px 20px;}
+.aboutUs_main p{font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:25px; color:#6f6f6f; margin-bottom:20px;}
+
+
+
+.rgpageWrap,body,html{height: 100%; width: 100%;}
+.rgpageWrap{position: relative; min-width: 1000px; min-height: 630px;}

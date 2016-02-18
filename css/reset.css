@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+ * author : towne;
+ * date : 2014-10-24;
+ *
+ */
+/*reset*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin: 0; padding: 0;}
+body{font: 14px "Microsoft Yahei", "Arial Narrow", HELVETICA; background: #fff; -webkit-text-size-adjust: 100%; background-color: #efefef;}
+table{border-collapse: collapse; border-spacing: 0;}
+li{list-style: none;}
+p{word-wrap: break-word;}
+a{color: #172c45; text-decoration: none;}
+em{font-style: normal;}
+img{border: 0; vertical-align: top;}
+input{outline: none;}
+textarea{resize: none; overflow: auto; outline: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clear:after{content: ''; display: block; clear: both;}
+.clear{zoom: 1;}
+.m1000{width: 1000px; margin: 0 auto;}
+.hide{display: none;}
+body{overflow-y: auto;}
+.circular {border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; behavior: url(../resources/goods/pie.htc); z-index: 33; position: relative;}
+.circular_12 {border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px; behavior: url(../resources/goods/pie.htc); z-index: 33; position: relative;}
+.circular_4 {border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;behavior: url(../resources/goods/pie.htc);z-index: 33; position:relative;}
+.circular_2 {border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;behavior: url(../resources/goods/pie.htc);z-index: 33; position:relative;}
+.alignC{ text-align:center;}
+.alignL{ text-align:left;}
+.alignR{ text-align:right;}
+.relative{position:relative;}
+/*mt*/
+.mt25{margin-top: 25px;}
+.mt50{margin-top: 50px;}
+.mt70{margin-top: 70px;}
+.mt100{margin-top: 100px;}
+.mt115{margin-top: 115px;}
+.pt10{padding-top:10px}
+/* repeat - background-color*/
+.white_bg{
+	background-color: #ffffff;
+}
+.white_bg1{
+	background-color: #f9f9f9;
+}
+.white_bg2{
+	background-color: #fdfdfd;
+}
+.white_bg3{
+	background-color: #efefef;
+}
+.foot_bg{
+	background-color: #374049;
+}
+/*head --- nav*/
+.head_bg{
+	background-color: #ffffff;
+	border-bottom: 1px solid #efefef;
+}
+#head{
+	height: 80px;
+	position: relative;
+	z-index: 12;
+	background-color: #ffffff;
+}
+#head h1{
+	height: 100%;
+	width: 240px;
+	padding-left: 20px;
+	float: left;
+}
+#head .nav{
+	height: 100%;
+	width: 500px;
+	overflow: hidden;
+	float: left;
+}
+#head .nav ul{
+	width: 500px;
+}
+#head .nav li{
+	height: 100%;
+	float: left;
+}
+#head .nav li a{
+	display: inline-block;
+	padding: 0 52px;
+	line-height: 75px;
+	color: #797a7c;
+	font-size: 18px;
+	border-bottom: 5px solid #ffffff;
+}
+#head .nav li a:hover, #head .nav li a.active{
+	color: #0db2ff;
+	border-color: #0db2ff;
+	text-decoration: none;
+}
+/*未登陆状态*/
+#head .login, #head .login_on{
+	width: 210px;
+	padding-right: 20px;
+	padding-top: 28px;
+	float: left;
+}
+#head .login p{
+	height: 24px;
+	padding-left: 30px;
+	float: right;
+	background: url(../images/hx_icon.png) 0 0 no-repeat;
+}
+#head .login p a{
+	margin: 0 5px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #797a7c;
+}
+/*已登陆状态*/
+#head .login_on{
+	padding-top: 10px;
+}
+#head .avatar{
+	height: 60px;
+	position: relative;
+}
+#head .avatar p{
+	line-height: 60px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #797a7c;
+	font-size: 14px;
+	cursor: pointer;
+}
+#head .avatar p a{
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	float: left;
+}
+#head .avatar p i{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/head_avatar.png) 0 0 no-repeat;
+}
+#head .avatar p img{
+	width: 60px;
+	height: 60px;
+}
+#head .avatar p span{
+	float: left;
+}
+#head .avatar_list{
+	width: 150px;
+	height: 90px;
+	position: absolute;
+	right: 20px;
+	top: 76px;
+	z-index: 11;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 35px 10px #eee;
+	-webkit-box-shadow: 0px 0px 35px 10px #eee;
+	-moz-box-shadow: 0px 0px 35px 10px #eee;
+	-o-box-shadow: 0px 0px 35px 10px #eee;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	behavior: url(../resources/goods/pie.htc);
+	zoom: 1;
+}
+#head .avatar_list i{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: -10px;
+	left: 25px;
+	z-index: 1;
+	background: url(../images/hx_icon.png) 0 -123px no-repeat;
+}
+#head .avatar_list a,#head .avatar_list h3{
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	color: #797a7c;
+}
+#head .avatar_list a:hover{
+	color: #ffffff;
+	background-color: #6eccfd;
+	text-decoration: none;
+}
+#head .avatar_list a.red{
+	color: #fa5b48;
+}
+#head .avatar_list a.red:hover{color: #fff;}
+/*foot*/
+
+#foot{
+	text-align: center;
+	padding:35px 0;
+	background-color: #374049;
+}
+#foot .copyright{ border-top: 1px solid #2d343b; color:#a6a6a6; line-height: 56px;text-align: center; margin-top: 35px;}
+.ft_link{overflow: hidden;}
+.f_logo a{display: block;width: 125px; height: 125px; background: #333b43; text-align: center; overflow: hidden; position: relative;}
+.f_logo a img{position: absolute; top: 50%; margin-top: -50px; left: 50%; margin-left: -45px;}
+
+.f_a{ font-size: 14px; color: #fff; margin-left: 15px; position: relative; top: 50px;}
+.f_a a{background: url(../images/ft_icon.png) no-repeat; padding-left: 30px; margin-left: 35px; color: #fff; line-height: 22px; padding-bottom: 1px;}
+.f_a a#ft_about{ background-position: 0 0;}
+.f_a a#ft_contact{ background-position: 0 -26px;}
+.f_a a#ft_help{ background-position: 0 -54px;}
+
+.ft_btn_share{color: #fff;}
+.ft_btn_share li{float: left; margin-left: 25px; position: relative;}
+.ft_btn_share li span{ left: 15px; top: 15px; position: absolute;}
+.ft_btn_share img{ width: 97px; height: 97px; border: 10px solid #fff; margin-bottom: 10px;}
+.ft_btn_share li.ft_sina{ padding-left: 95px; border-left: 1px solid #2d343b; top: 35px;}
+#foot .ft_btn_share a {
+display: inline-block;
+width: 45px;
+height: 45px;
+background: url(../images/share.png) no-repeat;
+margin:0 14px 0;
+position: relative;
+}
+#foot .ft_btn_share a.bds_tsina {background-position: 0 0;}
+#foot .ft_btn_share a.bds_tsina:hover{background-position: 0 -46px;}

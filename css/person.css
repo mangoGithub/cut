@@ -1,0 +1,79 @@
+/*
+*Author:devil
+*Email:zhihong@creditease.cn
+*Update:20141105
+*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix { *zoom: 1;}
+.ps_box_1{width:1000px;margin:auto;}
+.ps_btn_1{display:inline-block;font:14px/40px Microsoft Yahei;padding:0 10px;color:#fff;border-radius:3px;text-decoration:none;background:#0db2ff;}
+.ps_btn_1dis{background:#efefef;color:#797a7c;cursor:default;}
+.ps_btn_2{border-radius:3px;font:22px/45px Microsoft Yahei;width:180px;color:#fff;background:#0db2ff;display:inline-block;text-align:center;margin-bottom:40px;}
+
+
+.ps_inp_1{font:14px/24px Microsoft Yahei;padding:8px;background:#efefef;border:1px solid #e2e1e1;border-radius:3px;}
+.ps_inp_2{font:14px/24px Microsoft Yahei;padding:8px;}
+.ps_inp_3{padding-top:8px;}
+.ps_inp_3 select{font:14px/24px Microsoft Yahei;border-radius:12px;padding:2px 10px;background:#eaeaea;border:1px solid #e2e1e1;}
+
+.ps_ico_1{vertical-align:middle;background:url(../images/person/ps_3.png) no-repeat;display:inline-block;width:40px;height:40px;margin-right:20px;}
+.ps_ico_2{vertical-align:middle;background:url(../images/person/ps_5.png) no-repeat;display:inline-block;width:18px;height:18px;margin-right:10px;}
+.ps_ico_3{vertical-align:middle;background:url(../images/person/ps_5_2.png) no-repeat;display:inline-block;width:18px;height:18px;margin-right:10px;}
+.ps_ico_4{vertical-align:middle;background:url(../images/person/ps_6.png) no-repeat;display:inline-block;width:35px;height:52px;margin-right:20px;}
+
+.ps_pic_1{color:#0db2ff;font:14px/40px Microsoft Yahei;}
+.ps_pic_2{vertical-align: middle;line-height:40px;}
+
+.ps_list_1{font:24px/40px Microsoft Yahei;color:#7c7c7c;margin-bottom:20px;padding:30px 0 0 40px;}
+.ps_list_2{width:180px;float:left;margin-bottom:100px;}
+.ps_list_2 li a{background:#fff url(../images/person/ps_1.png) no-repeat;display:block;font:16px/40px Microsoft Yahei;padding-left:66px;border-bottom:1px solid #eee;}
+.ps_list_2 li a.no1{background-position:0 0 ;}
+.ps_list_2 li a.no2{background-position:0 -40px;}
+.ps_list_2 li a.no3{background-position:0 -80px;}
+.ps_list_2 li a.no4{background-position:0 -120px;}
+.ps_list_2 li a.no5{background-position:0 -160px;}
+.ps_list_2 li.hot a{background-color:#6eccfd;border-bottom:1px solid #6eccfd;color:#fff;}
+.ps_list_2 li.hot a.no1{background-position:0 -400px ;}
+.ps_list_2 li.hot a.no2{background-position:0 -440px ;}
+.ps_list_2 li.hot a.no3{background-position:0 -480px ;}
+.ps_list_2 li.hot a.no4{background-position:0 -520px ;}
+.ps_list_2 li.hot a.no5{background-position:0 -560px ;}
+.ps_list_3{margin-left:190px;background:#fff;padding:15px;margin-bottom:100px; min-height: 500px;}
+.ps_list_4{font:18px/40px Microsoft Yahei;padding:0 0 10px 50px;border-bottom:1px solid #e3e3e3;position:relative;margin-bottom:40px;}
+.ps_list_4 a{position:absolute;right:0;top:0;}
+
+.ps_list_5{position:relative;padding-left:140px;margin-bottom:20px;}
+.ps_list_5lf{position:absolute;width:120px;text-align:right;font:14px/40px Microsoft Yahei;left:0;top:0;}
+.ps_list_5ri{font:14px/40px Microsoft Yahei;}
+.ps_list_5ri p{margin-bottom:10px;}
+.ps_list_7{font:24px/40px Microsoft Yahei;color:#000;text-align:center;margin-bottom:40px;}
+
+.ps_list_8{position:relative;width:180px;height:45px;display:inline-block; vertical-align: middle;}
+.ps_list_8 span{position:absolute;width:100%;height:100%;top:0;left:0;font:22px/45px Microsoft Yahei;color:#fff;border-radius:3px;background:#0db2ff;text-align:center;}
+.ps_list_8 input{position:absolute;width:100%;height:100%;top:0;left:0;filter:alpha(opacity=0);opacity:0;cursor:pointer;}
+.ps_list_9{display:inline-block;font:14px/22px Microsoft Yahei;color:#adadad;vertical-align:top;padding-left:20px;}
+.ps_list_10{color:#929292;width:500px;}
+.ps_alert_1{
+	width:400px;padding-top:40px;
+	background:#fff;
+	box-shadow: 0px 0px 35px 10px rgba(0,0,0,.08);
+	-webkit-box-shadow: 0px 0px 35px 10px rgba(0,0,0,.08);
+	-moz-box-shadow: 0px 0px 35px 10px rgba(0,0,0,.08);
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	behavior: url(../resources/goods/pie.htc);
+	zoom: 1;
+	position:relative;
+}
+.ps_alert_1btn{
+	position:absolute;
+	width:40px;height:40px;
+	right:0;top:0;
+	background:url(../images/person/ps_2.png) no-repeat center center;
+}
+.dialog{ position: fixed; _position: absolute;display: none;}
+#mask{background-color:#000;opacity: 0.5;filter:alpha(opacity=50);width: 300px;height: 600px;position: absolute;left: 0;top: 0;display: none;}
+.none{display:none}
+.cur_active{display:block;}
+

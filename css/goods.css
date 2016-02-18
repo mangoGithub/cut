@@ -1,0 +1,36 @@
+/*
+	describe:众筹流程
+	update:2014-10-24
+	author:zhongyan
+*/
+.bgf9f9f9{background:#f9f9f9;}
+.797a7c{color:#797a7c;}
+.graybd{color:#bdbdbd;}
+.flow{width:960px; padding:36px 20px; margin:0px auto;}
+.flow .flow_title{font:24px/1.4em 'Microsoft Yahei'; color:#2b2f32;}
+.flow .flow_lay{padding-top:20px;}
+.flow_list{text-align:center; padding:10px 12px;}
+.flow_list.p10x30{padding:10px 20px;}
+.flow_list.p5x20{padding:5px 10px;}
+.flow_list.p5x35{padding:5px 30px;}
+.flow_list.p18x30{padding:18px 20px;}
+.flow_list i{width:50px; height:50px; display:inline-block;}
+.flow_list p{font:16px/1.5em 'Microsoft Yahei'; color:#797a7c;}
+.flow_list p.gray{color:#bdbdbd;}
+.flow_list .flow_icon1{background:url(../images/icon.png) -100px 0px;}
+.flow_list .flow_icon2{background:url(../images/icon.png) -100px -90px;}
+.flow_list .flow_icon3{background:url(../images/icon.png) -100px -180px;}
+.flow_list .flow_icon4{background:url(../images/icon.png) -100px -250px;}
+.flow_list .flow_icon5{background:url(../images/icon.png) -100px -320px;}
+.flow_list .flow_icon6{background:url(../images/icon.png) -100px -390px;}
+.flow_list .flow_icon7{background:url(../images/icon.png) -100px bottom;}
+.flow_list.solid{border:1px solid #797a7c;}
+.flow_list.dashed{border:1px dashed #c1c1c1;}
+.flow_target{width:50px; height:14px; background:url(../images/icon.png) -195px 0px;}
+
+
+
+
+
+
+

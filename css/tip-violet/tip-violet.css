@@ -1,0 +1,71 @@
+.tip-error{z-index:50;text-align:left;min-width:50px;max-width:400px;color:#fa5b48;visibility:hidden;position:absolute;top:0;left:0; }
+.tip-error .tip-inner {font-size:14px;padding:5px;line-height:24px;}
+.tip-error .tip-state{background:url("tip_state.jpg") no-repeat scroll left 3px;padding-left:30px;}
+
+.tip-ok{z-index:50;visibility:hidden;position:absolute;top:0;left:0;}
+.tip-ok .tip-inner {padding:5px;}
+.tip-ok .tip-state {background:url("tip_state.jpg") no-repeat scroll left -55px;height:22px;padding-left:30px;}
+
+.tip-info{z-index:50;text-align:left;min-width:50px;max-width:400px;color:#797a7c;visibility:hidden;position:absolute;top:0;left:0; }
+.tip-info .tip-arrow{visibility:hidden;position:absolute;overflow:hidden;font:1px/1px sans-serif;}
+.tip-info .tip-inner {font-size:14px;padding:5px;line-height:24px;}
+.tip-tips{
+	z-index:50;
+	text-align:left;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	min-width:50px;
+	max-width:750px;
+	color:#707479;
+	background-color:#fff9c9;
+	visibility:hidden;position:absolute;top:0;left:0;
+	/**
+	 * - If you set a background-image, border/padding/background-color will be ingnored.
+	 *   You can set any padding to .tip-inner instead if you need.
+	 * - If you want a tiled background-image and border/padding for the tip,
+	 *   set the background-image to .tip-inner instead.
+	 */
+}
+.tip-tips .tip-arrow{visibility:hidden;position:absolute;overflow:hidden;font:1px/1px sans-serif;}
+.tip-tips .tip-inner {
+	font-size:14px;
+	padding:15px;
+}
+.tip-tips .tip-arrow-top {
+	margin-top:-6px;
+	margin-left:-5px; /* approx. half the width to center it */
+	top:0;
+	left:50%;
+	width:9px;
+	height:6px;
+	background:url(tip-tips_arrows.gif) no-repeat;
+}
+.tip-tips .tip-arrow-right {
+	margin-top:-4px; /* approx. half the height to center it */
+	margin-left:0;
+	top:50%;
+	left:100%;
+	width:6px;
+	height:9px;
+	background:url(tip-tips_arrows.gif) no-repeat -9px 0;
+}
+.tip-tips .tip-arrow-bottom {
+	margin-top:0;
+	margin-left:-5px; /* approx. half the width to center it */
+	top:100%;
+	left:50%;
+	width:9px;
+	height:6px;
+	background:url(tip-tips_arrows.gif) no-repeat -18px 0;
+}
+.tip-tips .tip-arrow-left {
+	margin-top:-4px; /* approx. half the height to center it */
+	margin-left:-6px;
+	top:50%;
+	left:0;
+	width:6px;
+	height:9px;
+	background:url(tip-tips_arrows.gif) no-repeat -27px 0;
+}
+	
